@@ -2,6 +2,7 @@ import pandas as pd
 import datetime
 from s3fs.core import S3FileSystem
 import boto3
+import streamlit as st
 
 # get set up
 def setup_session(key_id, key):
@@ -16,13 +17,16 @@ def setup_resource(resource, bucket):
     target_bucket = my_resource.Bucket(bucket)
     return session,my_resource,target_bucket
 
-with open('/Users/william/Desktop/Elastik/awskeys/keys.txt') as keys:
-    lines = keys.readlines()
-    key_id = lines[0].replace('\n','')
-    key = lines[1]
-print(key_id)
-print(key)
-print(lines)
+# with open('/Users/william/Desktop/Elastik/awskeys/keys.txt') as keys:
+#     lines = keys.readlines()
+#     key_id = lines[0].replace('\n','')
+#     key = lines[1]
+# print(key_id)
+# print(key)
+# print(lines)
+
+key_id = st.secrets['key_id']
+key = st.secrets['key']
 
 bucket_dict = {'assigned':'','performance':'','usage':'','logins':''}
 setup_session(key_id, key)

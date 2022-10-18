@@ -1,15 +1,19 @@
 import boto3
 import time
 import pathlib
+import streamlit as st
 
 # keep this private please
-with open('/Users/william/Desktop/Elastik/awskeys/keys.txt') as keys:
-    lines = keys.readlines()
-    key_id = lines[0].replace('\n','')
-    key = lines[1]
-print(key_id)
-print(key)
-print(lines)
+# with open('/Users/william/Desktop/Elastik/awskeys/keys.txt') as keys:
+#     lines = keys.readlines()
+#     key_id = lines[0].replace('\n','')
+#     key = lines[1]
+# print(key_id)
+# print(key)
+# print(lines)
+
+key_id = st.secrets['key_id']
+key = st.secrets['key']
 
 # WILLIAMS TO DO LIST
 #       1-

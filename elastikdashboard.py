@@ -26,13 +26,16 @@ from s3fs.core import S3FileSystem
 # school_performance = pd.read_csv('comparisons.csv')
 
 # get set up
-with open('/Users/william/Desktop/Elastik/awskeys/keys.txt') as keys:
-    lines = keys.readlines()
-    key_id = lines[0].replace('\n','')
-    key = lines[1]
-print(key_id)
-print(key)
-print(lines)
+# with open('/Users/william/Desktop/Elastik/awskeys/keys.txt') as keys:
+#     lines = keys.readlines()§
+#     key_id = lines[0].replace('\n','')
+#     key = lines[1]
+# print(key_id)
+# print(key)
+# print(lines)
+
+key_id = st.secrets['key_id']
+key = st.secrets['key']
 
 
 
