@@ -8,4 +8,4 @@ enableCORS = false\n\
 [theme]
 base="dark"
 primaryColor="#4b7eff"
-" > ~/.streamlit/config.toml
+"
