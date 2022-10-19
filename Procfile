@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run elastikdashboard.py
+web: gitsh setup.sh && streamlit run elastikdashboard.py
