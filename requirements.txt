@@ -1,75 +1,75 @@
 altair==4.2.0
 attrs==22.1.0
 blinker==1.5
-boto3 @ file:///home/conda/feedstock_root/build_artifacts/boto3_1665818716753/work
-botocore @ file:///home/conda/feedstock_root/build_artifacts/botocore_1665800041578/work
-brotlipy @ file:///Users/runner/miniforge3/conda-bld/brotlipy_1648854303569/work
+boto3
+botocore
+brotlipy
 cachetools==5.2.0
 certifi==2022.9.24
-cffi @ file:///Users/runner/miniforge3/conda-bld/cffi_1656783163977/work
-charset-normalizer @ file:///home/conda/feedstock_root/build_artifacts/charset-normalizer_1661170624537/work
+cffi
+charset-normalizer
 click==8.1.3
 commonmark==0.9.1
-contourpy @ file:///Users/runner/miniforge3/conda-bld/contourpy_1662135353230/work
-cryptography @ file:///Users/runner/miniforge3/conda-bld/cryptography_1657174084384/work
-cycler @ file:///home/conda/feedstock_root/build_artifacts/cycler_1635519461629/work
+contourpy
+cryptography
+cycler
 decorator==5.1.1
-Deprecated @ file:///home/conda/feedstock_root/build_artifacts/deprecated_1632758190537/work
+Deprecated
 entrypoints==0.4
-fonttools @ file:///Users/runner/miniforge3/conda-bld/fonttools_1664574299901/work
-fsspec @ file:///home/conda/feedstock_root/build_artifacts/fsspec_1662037448631/work
+fonttools
+fsspec
 gitdb==4.0.9
 GitPython==3.1.27
-idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1663625384323/work
+idna
 importlib-metadata==4.12.0
 Jinja2==3.1.2
-jmespath @ file:///home/conda/feedstock_root/build_artifacts/jmespath_1655568249366/work
+jmespath
 jsonschema==4.16.0
-kiwisolver @ file:///Users/runner/miniforge3/conda-bld/kiwisolver_1657953151081/work
+kiwisolver
 MarkupSafe==2.1.1
-matplotlib @ file:///Users/runner/miniforge3/conda-bld/matplotlib-suite_1663359044092/work
+matplotlib
 munkres==1.1.4
-numpy @ file:///Users/runner/miniforge3/conda-bld/numpy_1662888984243/work
-packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1637239678211/work
+numpy
+packaging
 pandas==1.5.0
-patsy @ file:///home/conda/feedstock_root/build_artifacts/patsy_1632667180946/work
-Pillow @ file:///Users/runner/miniforge3/conda-bld/pillow_1660385909106/work
+patsy
+Pillow
 protobuf==3.20.1
 pyarrow==9.0.0
-pycparser @ file:///home/conda/feedstock_root/build_artifacts/pycparser_1636257122734/work
-pydeck==0.8.0b3
-PyGithub @ file:///home/conda/feedstock_root/build_artifacts/pygithub_1625175731529/work
+pycparser
+pydeck
+PyGithub
 Pygments==2.13.0
-PyJWT @ file:///home/conda/feedstock_root/build_artifacts/pyjwt_1663432570896/work
+PyJWT
 Pympler==1.0.1
-PyNaCl @ file:///Users/runner/miniforge3/conda-bld/pynacl_1649520022411/work
-pyOpenSSL @ file:///home/conda/feedstock_root/build_artifacts/pyopenssl_1663846997386/work
-pyparsing @ file:///home/conda/feedstock_root/build_artifacts/pyparsing_1652235407899/work
+PyNaCl
+pyOpenSSL
+pyparsing
 pyrsistent==0.18.1
-PySocks @ file:///home/conda/feedstock_root/build_artifacts/pysocks_1661604839144/work
-python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/python-dateutil_1626286286081/work
-pytz @ file:///home/conda/feedstock_root/build_artifacts/pytz_1660580468234/work
+PySocks
+python-dateutil
+pytz
 pytz-deprecation-shim==0.1.0.post0
-requests @ file:///home/conda/feedstock_root/build_artifacts/requests_1661872987712/work
+requests
 rich==12.5.1
 s3fs==0.4.2
-s3transfer @ file:///home/conda/feedstock_root/build_artifacts/s3transfer_1654039987929/work
+s3transfer
 scipy==1.9.1
-seaborn @ file:///home/conda/feedstock_root/build_artifacts/seaborn-split_1662491375569/work
+seaborn
 semver==2.13.0
-six @ file:///home/conda/feedstock_root/build_artifacts/six_1620240208055/work
+six
 smmap==5.0.0
-statsmodels @ file:///Users/runner/miniforge3/conda-bld/statsmodels_1654787394586/work
+statsmodels
 streamlit==1.13.0
 streamlit-lottie==0.0.3
 toml==0.10.2
 toolz==0.12.0
 tornado==6.2
-typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1656706066251/work
+typing_extensions
 tzdata==2022.4
 tzlocal==4.2
-unicodedata2 @ file:///Users/runner/miniforge3/conda-bld/unicodedata2_1649111971342/work
+unicodedata2
 urllib3==1.26.12
 validators==0.20.0
-wrapt @ file:///Users/runner/miniforge3/conda-bld/wrapt_1651495311847/work
+wrapt
 zipp==3.8.1
