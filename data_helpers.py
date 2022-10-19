@@ -3,6 +3,7 @@ import datetime
 from s3fs.core import S3FileSystem
 import boto3
 import streamlit as st
+import os
 
 # get set up
 def setup_session(key_id, key):

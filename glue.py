@@ -2,6 +2,7 @@ import boto3
 import time
 import pathlib
 import streamlit as st
+import os
 
 # keep this private please
 # with open('/Users/william/Desktop/Elastik/awskeys/keys.txt') as keys:

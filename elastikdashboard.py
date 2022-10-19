@@ -38,6 +38,9 @@ import os
 # key_id = st.secrets['key_id']
 # key = st.secrets['key']
 
+key_id = os.environ['key_id']
+key = os.environ['key']
+
 def setup_session(key_id, key):
     return boto3.Session(aws_access_key_id=key_id,
                          aws_secret_access_key=key)
