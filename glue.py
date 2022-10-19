@@ -12,8 +12,8 @@ import streamlit as st
 # print(key)
 # print(lines)
 
-key_id = st.secrets['key_id']
-key = st.secrets['key']
+# key_id = st.secrets['key_id']
+# key = st.secrets['key']
 
 # WILLIAMS TO DO LIST
 #       1-

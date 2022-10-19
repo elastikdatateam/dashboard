@@ -25,8 +25,8 @@ def setup_resource(resource, bucket):
 # print(key)
 # print(lines)
 
-key_id = st.secrets['key_id']
-key = st.secrets['key']
+# key_id = st.secrets['key_id']
+# key = st.secrets['key']
 
 bucket_dict = {'assigned':'','performance':'','usage':'','logins':''}
 setup_session(key_id, key)

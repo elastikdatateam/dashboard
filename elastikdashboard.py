@@ -34,8 +34,8 @@ from s3fs.core import S3FileSystem
 # print(key)
 # print(lines)
 
-key_id = st.secrets['key_id']
-key = st.secrets['key']
+# key_id = st.secrets['key_id']
+# key = st.secrets['key']
 
 
 
