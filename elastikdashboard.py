@@ -13,6 +13,7 @@ import boto3
 import time
 from data_helpers import *
 from s3fs.core import S3FileSystem
+import os
 
 # df = pd.read_csv('cbddae2e-2e01-4d62-8884-b897ac09ab54.csv')
 # today = datetime.date.today()
@@ -37,6 +38,8 @@ from s3fs.core import S3FileSystem
 # key_id = st.secrets['key_id']
 # key = st.secrets['key']
 
+key_id = os.environ['key_id']
+key = os.environ['key']
 
 
 def setup_session(key_id, key):

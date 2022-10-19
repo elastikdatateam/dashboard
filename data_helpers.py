@@ -28,6 +28,9 @@ def setup_resource(resource, bucket):
 # key_id = st.secrets['key_id']
 # key = st.secrets['key']
 
+key_id = os.environ['key_id']
+key = os.environ['key']
+
 bucket_dict = {'assigned':'','performance':'','usage':'','logins':''}
 setup_session(key_id, key)
 setup_resource('s3','elastikdashboard')

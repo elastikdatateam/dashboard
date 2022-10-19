@@ -15,6 +15,9 @@ import streamlit as st
 # key_id = st.secrets['key_id']
 # key = st.secrets['key']
 
+key_id = os.environ['key_id']
+key = os.environ['key']
+
 # WILLIAMS TO DO LIST
 #       1-
 #       2- rewrite streamlit app + process data accordingly w pandas
