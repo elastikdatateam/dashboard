@@ -5,19 +5,19 @@ import streamlit as st
 import os
 
 # keep this private please
-# with open('/Users/william/Desktop/Elastik/awskeys/keys.txt') as keys:
-#     lines = keys.readlines()
-#     key_id = lines[0].replace('\n','')
-#     key = lines[1]
-# print(key_id)
-# print(key)
-# print(lines)
+with open('/home/ubuntu/keys.txt') as keys:
+    lines = keys.readlines()
+    key_id = lines[0].replace('\n','')
+    key = lines[1]
+print(key_id)
+print(key)
+print(lines)
 
 # key_id = st.secrets['key_id']
 # key = st.secrets['key']
 
-key_id = os.environ['key_id']
-key = os.environ['key']
+# key_id = os.environ['key_id']
+# key = os.environ['key']
 
 # WILLIAMS TO DO LIST
 #       1-
@@ -84,7 +84,7 @@ def data_updater(*args):
         # transfer each query's data to bucket
         for arg in args:
             print(arg)
-            time.sleep(5)
+            time.sleep(15)
             query(fetch_query_string(arg), 's3://elastikdashboard/test-run-1/hi/')
         print('and added the new data')
 
@@ -93,7 +93,7 @@ def data_updater(*args):
         print('key didnt exist')
         for arg in args:
             print(arg)
-            time.sleep(5)
+            time.sleep(15)
             query(fetch_query_string(arg), 's3://elastikdashboard/test-run-1/hi/')
         print('now it does')
 
